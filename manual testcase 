@@ -1,0 +1,56 @@
+welcome screen should be displayed for feature selection
+1) go to http://localhost:8080/WebJavaServlet/
+2) welcome screen should be displayed with links
+a) add new record
+b)view cars
+c) view cars and bikes
+d) calculate car mileage
+
+
+add a new record
+1) go to http://localhost:8080/WebJavaServlet/
+2) click add a new record
+3) enter Car registration number,car model, car color and car mileage
+4) clilc submit 
+5) check datbase or view cars to see if new record added 
+
+view cars - user should be able to view cars from database
+1) go to http://localhost:8080/WebJavaServlet/
+2) click view cars
+3) click submit button
+4) car list should be displayed
+
+
+view cars and bikes
+1) go to http://localhost:8080/WebJavaServlet/
+2) click view cars and bikes
+3) click submit button
+4) car and bike union list should be displayed
+
+calculate fuel efficency
+1) go to http://localhost:8080/WebJavaServlet/
+2) click calculate fuel efficency
+3) type 123456 for car registration 
+4) click submit button
+5) car mileage should be 3.5
+
+calcualte fuel efficency shouldnt work if car regiistration not provided
+1) go to http://localhost:8080/WebJavaServlet/
+2) click calculate fuel efficency
+3) leave blank for car registration 
+4) click submit button
+5) Verify the registration number! message should be displayed 
+
+Bug  - Insert data accepting null values and redirecting to blank page
+environment - virtual machine linux balaji visvanath browser chrome
+url - http://localhost:8080/WebJavaServlet/InsertData
+step to reproduce
+1) go to http://localhost:8080/WebJavaServlet/
+2) click add a new record
+3) dont enter Car registration number,car model, car color and car mileage
+4) clilc submit 
+
+
+
+
+calculate fuel efficency
